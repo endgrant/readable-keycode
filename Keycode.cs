@@ -1,11 +1,9 @@
-﻿using static System.Formats.Asn1.AsnWriter;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace ReadableKeycode {
-    public class Keycode {
-        private Dictionary<string, int> keycodes = new Dictionary<string, int> {
+    public static class Keycode {
+        private static Dictionary<string, int> keycodes = new Dictionary<string, int> {
             ["Backspace"] = 8,
             ["Tab"] = 9,
             ["Enter"] = 13,
@@ -111,14 +109,14 @@ namespace ReadableKeycode {
 
 
         // Converts an integer keycode to a human-readable string
-        public string ToHuman(int code) {
+        public static string ToHuman(int code) {
             string key = keycodes.First(kv => kv.Value == code).Key;
             return key;
         }
 
 
         // Converts a human-readable string into an integer keycode
-        public int ToComputer(string key) {
+        public static int ToComputer(string key) {
             return keycodes[key];
         }
     }

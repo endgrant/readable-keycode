@@ -1,0 +1,5 @@
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net4.8\ReadableKeycode.csproj.AssemblyReference.cache
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net4.8\ReadableKeycode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net4.8\ReadableKeycode.AssemblyInfoInputs.cache
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net4.8\ReadableKeycode.AssemblyInfo.cs
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net4.8\ReadableKeycode.csproj.CoreCompileInputs.cache

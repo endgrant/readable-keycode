@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("endgrant")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2024 Grant")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Small library for converting standard JavaScript integer keycodes into human-read" +
     "able keys and back.")]

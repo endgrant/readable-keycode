@@ -1,0 +1,9 @@
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.csproj.AssemblyReference.cache
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.AssemblyInfoInputs.cache
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.AssemblyInfo.cs
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.csproj.CoreCompileInputs.cache
+C:\Users\illus\Desktop\Development\ReadableKeycode\bin\Release\net48\ReadableKeycode.dll
+C:\Users\illus\Desktop\Development\ReadableKeycode\bin\Release\net48\ReadableKeycode.pdb
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.dll
+C:\Users\illus\Desktop\Development\ReadableKeycode\obj\Release\net48\ReadableKeycode.pdb

@@ -1,6 +1,6 @@
-<b>Readable Keycode</b>
-<br>```ToHuman(integer)``` to receive a string representing the associated KeyCode
-<br>```ToComputer(string)``` to receive an integer representing the associated KeyCode
+Readable Keycode\
+```ToHuman(integer)``` to receive a string representing the associated KeyCode\
+```ToComputer(string)``` to receive an integer representing the associated KeyCode\
 
 ```
 Backspace = 8
