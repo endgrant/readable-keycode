@@ -1,0 +1,11 @@
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\bin\Debug\net8.0\ReadableKeycode.deps.json
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\bin\Debug\net8.0\ReadableKeycode.dll
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\bin\Debug\net8.0\ReadableKeycode.pdb
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.AssemblyInfoInputs.cache
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.AssemblyInfo.cs
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.csproj.CoreCompileInputs.cache
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.dll
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\refint\ReadableKeycode.dll
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ReadableKeycode.pdb
+C:\Users\illus\Desktop\Development\C#\ReadableKeycode\obj\Debug\net8.0\ref\ReadableKeycode.dll
