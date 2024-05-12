@@ -4,9 +4,17 @@ using System.Linq;
 namespace ReadableKeycode {
     public static class Keycode {
         private static Dictionary<string, int> keycodes = new Dictionary<string, int> {
+            ["LeftMouse"] = 1,
+            ["RightMouse"] = 2,
+            ["Cancel"] = 3,
+            ["MiddleMouse"] = 4,
+            ["MouseX1"] = 5,
+            ["MouseX2"] = 6,
             ["Backspace"] = 8,
             ["Tab"] = 9,
             ["Enter"] = 13,
+            ["MouseVWheel"] = 14,
+            ["MouseHWheel"] = 15,
             ["ShiftLeft"] = 16,
             ["ShiftRight"] = 16,
             ["CtrlLeft"] = 17,

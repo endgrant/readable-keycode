@@ -3,9 +3,16 @@ Readable Keycode\
 ```ToComputer(string)``` to receive an integer representing the associated KeyCode\
 
 ```
+LeftMouse = 1
+RightMouse = 2
+MiddleMouse = 4
+MouseX1 = 5
+MouseX2 = 6
 Backspace = 8
 Tab = 9
 Enter = 13
+MouseVWheel = 14
+MouseHWheel = 15
 ShiftLeft = 16
 ShiftRight = 16
 CtrlLeft = 17
