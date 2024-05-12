@@ -4,7 +4,7 @@ Package:
 
 Readable Keycode\
 ```ToHuman(integer)``` to receive a string representing the associated KeyCode\
-```ToComputer(string)``` to receive an integer representing the associated KeyCode\
+```ToComputer(string)``` to receive an integer representing the associated KeyCode
 
 ```
 LeftMouse = 1
