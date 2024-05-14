@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ReadableKeycode {
@@ -15,12 +16,9 @@ namespace ReadableKeycode {
             ["Enter"] = 13,
             ["MouseVWheel"] = 14,
             ["MouseHWheel"] = 15,
-            ["ShiftLeft"] = 16,
-            ["ShiftRight"] = 16,
-            ["CtrlLeft"] = 17,
-            ["CtrlRight"] = 17,
-            ["AltLeft"] = 18,
-            ["AltRight"] = 18,
+            ["Shift"] = 16,
+            ["Ctrl"] = 17,
+            ["Alt"] = 18,
             ["Pause"] = 19,
             ["CapsLock"] = 20,
             ["Escape"] = 27,
@@ -124,8 +122,12 @@ namespace ReadableKeycode {
 
         // Converts an integer keycode to a human-readable string
         public static string ToHuman(int code) {
-            string key = keycodes.First(kv => kv.Value == code).Key;
-            return key;
+            try {
+                string key = keycodes.First(kv => kv.Value == code).Key;
+                return key;
+            } catch (InvalidOperationException e) {
+                return null;
+            }
         }
 
 

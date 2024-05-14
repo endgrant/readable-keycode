@@ -16,11 +16,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) 2024 Grant")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Small library for converting standard JavaScript integer keycodes into human-read" +
     "able keys and back.")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.4.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.4")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.5.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReadableKeycode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReadableKeycode")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.4.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.5.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/endgrant/readable-keycode?tab=readme-ov-file")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("en")]
 

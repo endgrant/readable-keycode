@@ -1,7 +1,3 @@
-Package:
-<br>https://www.nuget.org/packages/ReadableKeycode
-<br>`NuGet\Install-Package ReadableKeycode`<br>
-
 # Readable Keycode
 ```ToHuman(integer)``` to receive a string representing the associated Keycode\
 ```ToComputer(string)``` to receive an integer representing the associated Keycode
@@ -17,12 +13,9 @@ Tab = 9
 Enter = 13
 MouseVWheel = 14
 MouseHWheel = 15
-ShiftLeft = 16
-ShiftRight = 16
-CtrlLeft = 17
-CtrlRight = 17
-AltLeft = 18
-AltRight = 18
+Shift = 16
+Ctrl = 17
+Alt = 18
 Pause = 19
 CapsLock = 20
 Escape = 27
