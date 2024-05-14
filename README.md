@@ -1,10 +1,6 @@
-Package:
-<br>https://www.nuget.org/packages/ReadableKeycode
-<br>`NuGet\Install-Package ReadableKeycode`
-
-Readable Keycode\
-```ToHuman(integer)``` to receive a string representing the associated KeyCode\
-```ToComputer(string)``` to receive an integer representing the associated KeyCode
+# Readable Keycode
+```ToHuman(integer)``` to receive a string representing the associated Keycode\
+```ToComputer(string)``` to receive an integer representing the associated Keycode
 
 ```
 LeftMouse = 1
@@ -104,6 +100,12 @@ F11 = 122
 F12 = 123
 NumLock = 144
 ScrollLock = 145
+LeftShift = 160
+RightShift = 161
+LeftCtrl = 162
+RightAlt = 163
+LeftAlt = 164
+RightCtrl = 165
 ; = 186
 = = 187
 , = 188

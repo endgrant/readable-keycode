@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ReadableKeycode</id>
+    <version>1.0.4</version>
+    <title>Readable Keycode</title>
+    <authors>endgrant</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <description>Small library for converting standard JavaScript integer keycodes into human-readable keys and back.</description>
+    <copyright>Copyright (c) 2024 Grant</copyright>
+    <tags>C# Keyboard Keycode</tags>
+    <repository type="git" url="https://github.com/endgrant/readable-keycode?tab=readme-ov-file" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\illus\Desktop\Development\ReadableKeycode\bin\Release\net48\ReadableKeycode.dll" target="lib\net48\ReadableKeycode.dll" />
+    <file src="C:\Users\illus\Desktop\Development\ReadableKeycode\icon.png" target="\icon.png" />
+    <file src="C:\Users\illus\Desktop\Development\ReadableKeycode\LICENSE.txt" target="\LICENSE.txt" />
+    <file src="C:\Users\illus\Desktop\Development\ReadableKeycode\README.md" target="\README.md" />
+  </files>
+</package>
