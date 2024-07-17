@@ -13,6 +13,7 @@ namespace ReadableKeycode {
             ["MouseX2"] = 6,
             ["Backspace"] = 8,
             ["Tab"] = 9,
+            ["Clear"] = 12,
             ["Enter"] = 13,
             ["MouseVWheel"] = 14,
             ["MouseHWheel"] = 15,
@@ -22,6 +23,7 @@ namespace ReadableKeycode {
             ["Pause"] = 19,
             ["CapsLock"] = 20,
             ["Escape"] = 27,
+            ["Space"] = 32,
             ["PageUp"] = 33,
             ["PageDown"] = 34,
             ["End"] = 35,
@@ -120,20 +122,34 @@ namespace ReadableKeycode {
         };
 
 
-        // Converts an integer keycode to a human-readable string
+        /// <summary>
+        ///  Converts an integer keycode to a human-readable string
+        /// </summary>
+        /// <remarks>Returns a null string if the keycode is not found</remarks>
+        /// <param name="code">Integer representation of the keycode</param>
+        /// <returns>String name of the keycode (i.e, passing code 8 returns "Backspace")</returns>
         public static string ToHuman(int code) {
             try {
                 string key = keycodes.First(kv => kv.Value == code).Key;
                 return key;
-            } catch (InvalidOperationException e) {
+            } catch (Exception) {
                 return null;
             }
         }
 
 
-        // Converts a human-readable string into an integer keycode
+        /// <summary>
+        ///  Converts a human-readable string into an integer keycode
+        /// </summary>
+        /// <remarks>Returns 0 if the keycode is not found</remarks>
+        /// <param name="key">String representation of the keycode</param>
+        /// <returns>Integer keycode (i.e, passing key "Backspace" returns 8)</returns>
         public static int ToComputer(string key) {
-            return keycodes[key];
+            if (keycodes.ContainsKey(key)) {
+                return keycodes[key];
+            } else {
+                return 0;
+            }
         }
     }
 }
