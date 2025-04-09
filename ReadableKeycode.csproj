@@ -4,17 +4,17 @@
       <TargetFramework>net48</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Readable Keycode</Title>
-    <Authors>endgrant</Authors>
+    <Authors>Grant, Dylan</Authors>
     <Description>Small library for converting standard JavaScript integer keycodes into human-readable keys and back.</Description>
-    <Copyright>Copyright (c) 2024 Grant</Copyright>
+    <Copyright>Copyright (c) 2025 Grant, Dylan</Copyright>
     <PackageProjectUrl></PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/endgrant/readable-keycode?tab=readme-ov-file</RepositoryUrl>
-    <PackageTags>C#;Keyboard;Keycode;</PackageTags>
+    <PackageTags>C#;Keyboard;Keycode;Input;</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Version>1.0.6</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

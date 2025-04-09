@@ -1,7 +1,3 @@
-Package:
-<br>https://www.nuget.org/packages/ReadableKeycode
-<br>`NuGet\Install-Package ReadableKeycode -Version 1.0.6`<br>
-
 # Readable Keycode
 ```ToHuman(integer)``` to receive a string representing the associated Keycode\
 ```ToComputer(string)``` to receive an integer representing the associated Keycode

@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ReadableKeycode {
     public static class Keycode {
-        private static Dictionary<string, int> keycodes = new Dictionary<string, int> {
+        private static Dictionary<string, int> keycodes = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase) {
             ["LeftMouse"] = 1,
             ["RightMouse"] = 2,
             ["Cancel"] = 3,
@@ -139,7 +139,8 @@ namespace ReadableKeycode {
 
 
         /// <summary>
-        ///  Converts a human-readable string into an integer keycode
+        ///  Converts a human-readable string into an integer keycode.
+        ///  Uses an Ordinal String comparison to ignore case. This means "LeftMouse" and "leftmouse" will grab the same keycode.
         /// </summary>
         /// <remarks>Returns 0 if the keycode is not found</remarks>
         /// <param name="key">String representation of the keycode</param>
